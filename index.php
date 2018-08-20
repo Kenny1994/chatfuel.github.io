@@ -1,3 +1,4 @@
+<h1>Hello</h1>
 <?php
 date_default_timezone_set("America/New_York");
 $time = date("H:i:s");
@@ -15,3 +16,4 @@ function sendText($text){
     echo json_encode($arr);
 
 }
+?>
